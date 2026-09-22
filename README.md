@@ -2,6 +2,8 @@
 
 > Trim a video and export it right under a WhatsApp or Discord size limit - or by quality.
 
+[![Download](https://img.shields.io/badge/Download-latest%20build-e94560?style=for-the-badge&logo=github&logoColor=white)](../../releases/latest)
+
 Open a video, drag the two handles on the timeline (or nudge them by seconds), and export. Two quick buttons aim straight for **WhatsApp's 160 MB** and **Discord's 20 MB** upload limits by computing the bitrate needed to just fit - or pick a quality preset (CRF) instead and let the size fall out naturally. The sidebar shows a live size estimate and whether it fits each limit before you even export.
 
 ## What it does
@@ -26,6 +28,8 @@ This tool was originally called "Schneiden" (German for "cutting"). Its Python s
 ## Notes
 
 - Requires ffmpeg (LGPL/GPL depending on build) on your PATH; it is not bundled.
+
+![preview](cutter.png)
 
 ---
 
